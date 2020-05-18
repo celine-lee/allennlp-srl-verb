@@ -1,13 +1,16 @@
-To set up the environment and run the model, run the following:
+To set up the environment and run the model, follow the following workflow:
 
+Create the virtual environment and set up installs:
 ```
 python3 -m venv verb_srl_venv
+cd verb_srl_venv
+source bin/activate
 pip install allennlp==1.0.0rc3
 pip install allennlp-models
 ```
 Check that the `lib/python3.6/site-packages/allennlp_models/syntax/srl/` folder has `srl-eval.pl`. If it does not, wget it from [here](https://raw.githubusercontent.com/allenai/allennlp-models/master/allennlp_models/syntax/srl/srl-eval.pl) and put it in that folder.
 
-The GPUs on the CCG machines are CUDA version 10.1, so we set pytorch back to version 1.4:
+The GPUs on the CCG machines are CUDA version 10.1, so we set Pytorch back to version 1.4:
 ```
 pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
@@ -16,6 +19,7 @@ Then we set up the paths and model files, which are at `bert_base_srl_24.jsonnet
 
 To train:
 ```
+. ./set_paths.sh
 allennlp train bert_base_srl_24.jsonnet -s srl-bert-test --include_package allennlp_models
 ```
 
