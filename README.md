@@ -20,7 +20,7 @@ Then we set up the paths and model files, which are at `bert_base_srl_24.jsonnet
 To train:
 ```
 . ./set_paths.sh
-allennlp train bert_base_srl_24.jsonnet -s srl-bert-test --include_package allennlp_models
+allennlp train bert_base_srl_24.jsonnet -s srl-bert-test --include-package allennlp_models
 ```
 
 To evaluate:
