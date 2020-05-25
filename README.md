@@ -32,4 +32,9 @@ To predict:
 ```
 allennlp predict srl-bert-model/model.tar.gz input.txt --output-file output.txt
 ```
-The input and output files for the predict call are in JSON format. Inputs should be formatted such that sentences are separated into individual sentences, rather than one large paragraph. 
+The input and output files for the predict call are in JSON format. Inputs should be formatted such that sentences are separated into individual sentences, rather than one large paragraph.
+
+To predict a single sentence, without an input JSON file:
+```
+python predict_sentence.py srl-bert-test/model.tar.gz '{"sentence":"The fox jumped over the fence, and the fence fell down."}' --output_file test_nofile_output.txt 
+```

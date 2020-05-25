@@ -15,7 +15,7 @@
     "validation_data_path": std.extVar("SRL_VALIDATION_DATA_PATH"),
 
     "model": {
-        "type": "srl_bert",
+        "type": "allennlp_models.syntax.srl.srl_bert_model.SrlBert",
         "embedding_dropout": 0.1,
         "bert_model": "bert-base-uncased",
     },
