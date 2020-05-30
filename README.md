@@ -8,7 +8,7 @@ source bin/activate
 pip install allennlp==1.0.0rc3
 pip install allennlp-models
 ```
-Check that the `lib/python3.6/site-packages/allennlp_models/syntax/srl/` folder has `srl-eval.pl`. If it does not, wget it from [here](https://raw.githubusercontent.com/allenai/allennlp-models/master/allennlp_models/syntax/srl/srl-eval.pl) and put it in that folder.
+Check that the `lib/python3.6/site-packages/allennlp_models/syntax/srl/` folder has `srl-eval.pl`. If it does not, wget it from [here](https://github.com/allenai/allennlp-models/blob/83a14c4f4bef0c3e99f47dd1f380b48cbbba0ba6/allennlp_models/syntax/srl/srl-eval.pl) and put it in that folder.
 
 The GPUs on the CCG machines are CUDA version 10.1, so we set Pytorch back to version 1.4:
 ```
