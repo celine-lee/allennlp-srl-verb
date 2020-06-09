@@ -6,7 +6,7 @@ python3 -m venv verb_srl_venv
 cd verb_srl_venv
 source bin/activate
 pip install allennlp==1.0.0rc3
-pip install allennlp-models
+pip install allennlp-models==1.0.0rc3
 ```
 Check that the `lib/python3.6/site-packages/allennlp_models/syntax/srl/` folder has `srl-eval.pl`. If it does not, wget it from [here](https://github.com/allenai/allennlp-models/blob/83a14c4f4bef0c3e99f47dd1f380b48cbbba0ba6/allennlp_models/syntax/srl/srl-eval.pl) and put it in that folder.
 
