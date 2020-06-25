@@ -1,0 +1,307 @@
+{
+    "corpusId": "",
+    "id": "",
+    "text": "This sentence has 1.0 periods in it . The second sentence fell down the chute .",
+    "tokens": [
+        "This",
+        "sentence",
+        "has",
+        "1.0",
+        "periods",
+        "in",
+        "it",
+        ".",
+        "The",
+        "second",
+        "sentence",
+        "fell",
+        "down",
+        "the",
+        "chute",
+        "."
+    ],
+    "tokenOffsets": [
+        {
+            "form": "This",
+            "startCharOffset": 0,
+            "endCharOffset": 4
+        },
+        {
+            "form": "sentence",
+            "startCharOffset": 5,
+            "endCharOffset": 13
+        },
+        {
+            "form": "has",
+            "startCharOffset": 14,
+            "endCharOffset": 17
+        },
+        {
+            "form": "1.0",
+            "startCharOffset": 18,
+            "endCharOffset": 21
+        },
+        {
+            "form": "periods",
+            "startCharOffset": 22,
+            "endCharOffset": 29
+        },
+        {
+            "form": "in",
+            "startCharOffset": 30,
+            "endCharOffset": 32
+        },
+        {
+            "form": "it",
+            "startCharOffset": 33,
+            "endCharOffset": 35
+        },
+        {
+            "form": ".",
+            "startCharOffset": 36,
+            "endCharOffset": 37
+        },
+        {
+            "form": "The",
+            "startCharOffset": 38,
+            "endCharOffset": 41
+        },
+        {
+            "form": "second",
+            "startCharOffset": 42,
+            "endCharOffset": 48
+        },
+        {
+            "form": "sentence",
+            "startCharOffset": 49,
+            "endCharOffset": 57
+        },
+        {
+            "form": "fell",
+            "startCharOffset": 58,
+            "endCharOffset": 62
+        },
+        {
+            "form": "down",
+            "startCharOffset": 63,
+            "endCharOffset": 67
+        },
+        {
+            "form": "the",
+            "startCharOffset": 68,
+            "endCharOffset": 71
+        },
+        {
+            "form": "chute",
+            "startCharOffset": 72,
+            "endCharOffset": 77
+        },
+        {
+            "form": ".",
+            "startCharOffset": 78,
+            "endCharOffset": 79
+        }
+    ],
+    "sentences": {
+        "generator": "",
+        "score": 1.0,
+        "sentenceEndPositions": [
+            8,
+            16
+        ]
+    },
+    "views": [
+        {
+            "viewName": "SENTENCE",
+            "viewData": [
+                {
+                    "viewType": "",
+                    "viewName": "SENTENCE",
+                    "generator": "UserSpecified",
+                    "score": 1.0,
+                    "constituents": [
+                        {
+                            "label": "SENTENCE",
+                            "score": 1.0,
+                            "start": 0,
+                            "end": 8
+                        },
+                        {
+                            "label": "SENTENCE",
+                            "score": 1.0,
+                            "start": 8,
+                            "end": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "viewName": "TOKENS",
+            "viewData": [
+                {
+                    "viewType": "",
+                    "viewName": "TOKENS",
+                    "generator": "UserSpecified",
+                    "score": 1.0,
+                    "constituents": [
+                        {
+                            "label": "This",
+                            "score": 1.0,
+                            "start": 0,
+                            "end": 1
+                        },
+                        {
+                            "label": "sentence",
+                            "score": 1.0,
+                            "start": 1,
+                            "end": 2
+                        },
+                        {
+                            "label": "has",
+                            "score": 1.0,
+                            "start": 2,
+                            "end": 3
+                        },
+                        {
+                            "label": "1.0",
+                            "score": 1.0,
+                            "start": 3,
+                            "end": 4
+                        },
+                        {
+                            "label": "periods",
+                            "score": 1.0,
+                            "start": 4,
+                            "end": 5
+                        },
+                        {
+                            "label": "in",
+                            "score": 1.0,
+                            "start": 5,
+                            "end": 6
+                        },
+                        {
+                            "label": "it",
+                            "score": 1.0,
+                            "start": 6,
+                            "end": 7
+                        },
+                        {
+                            "label": ".",
+                            "score": 1.0,
+                            "start": 7,
+                            "end": 8
+                        },
+                        {
+                            "label": "The",
+                            "score": 1.0,
+                            "start": 8,
+                            "end": 9
+                        },
+                        {
+                            "label": "second",
+                            "score": 1.0,
+                            "start": 9,
+                            "end": 10
+                        },
+                        {
+                            "label": "sentence",
+                            "score": 1.0,
+                            "start": 10,
+                            "end": 11
+                        },
+                        {
+                            "label": "fell",
+                            "score": 1.0,
+                            "start": 11,
+                            "end": 12
+                        },
+                        {
+                            "label": "down",
+                            "score": 1.0,
+                            "start": 12,
+                            "end": 13
+                        },
+                        {
+                            "label": "the",
+                            "score": 1.0,
+                            "start": 13,
+                            "end": 14
+                        },
+                        {
+                            "label": "chute",
+                            "score": 1.0,
+                            "start": 14,
+                            "end": 15
+                        },
+                        {
+                            "label": ".",
+                            "score": 1.0,
+                            "start": 15,
+                            "end": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "viewName": "SRL_VERB",
+            "viewData": [
+                {
+                    "viewType": "",
+                    "viewName": "SRL_VERB",
+                    "generator": "allennlp-verbsrl",
+                    "score": 1.0,
+                    "constituents": [
+                        {
+                            "label": "Predicate",
+                            "score": 1.0,
+                            "start": 11,
+                            "end": 12,
+                            "properties": {
+                                "SenseNumber": "NA",
+                                "predicate": "fell"
+                            }
+                        },
+                        {
+                            "label": "ARG1",
+                            "score": 1.0,
+                            "start": 8,
+                            "end": 11
+                        },
+                        {
+                            "label": "ARGM-DIR",
+                            "score": 1.0,
+                            "start": 12,
+                            "end": 13
+                        },
+                        {
+                            "label": "ARG2",
+                            "score": 1.0,
+                            "start": 13,
+                            "end": 15
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "relationName": "ARG1",
+                            "srcConstituent": 0,
+                            "targetConstituent": 1
+                        },
+                        {
+                            "relationName": "ARGM-DIR",
+                            "srcConstituent": 0,
+                            "targetConstituent": 2
+                        },
+                        {
+                            "relationName": "ARG2",
+                            "srcConstituent": 0,
+                            "targetConstituent": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
