@@ -15,12 +15,12 @@ The GPUs on the CCG machines are CUDA version 10.1, so we set Pytorch back to ve
 pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
-Then we set up the paths and model files, which are at `bert_base_srl_24.jsonnet` and `set_paths.sh`. Note that these paths are set up as of 5/18/20 and only work on the CCG machines, and the paths may have changed since then.
+Then we set up the paths and model files, which are at `bert_base_srl.jsonnet` and `set_paths.sh`. Note that these paths are set up as of 5/18/20 and only work on the CCG machines, and the paths may have changed since then.
 
 To train:
 ```
 . ./set_paths.sh
-allennlp train bert_base_srl_24.jsonnet -s srl-bert-test --include-package allennlp_models
+allennlp train bert_base_srl.jsonnet -s srl-bert-test --include-package allennlp_models
 ```
 
 To evaluate:
